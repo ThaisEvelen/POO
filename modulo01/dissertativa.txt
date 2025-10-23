@@ -1,0 +1,20 @@
+A programação orientada a objetos (POO) é o paradigma mais adequado para implementar um sistema de gerenciamento de biblioteca, pois permite modelar as entidades do mundo real  como Livros, Autores, Usuários, Empréstimos e Devoluções  por meio de classes e objetos, representando suas características (atributos) e comportamentos (métodos).
+
+Cada entidade teria sua própria estrutura e responsabilidades, facilitando o reuso de código, a manutenção e a evolução futura do sistema.
+Por exemplo:
+
+A classe Livro poderia conter atributos como título, autor e gênero;
+
+A classe Usuário poderia conter nome, idade e históricoDeEmpréstimos;
+
+A classe Empréstimo poderia associar um Livro e um Usuário, além de dataRetirada e dataDevolução.
+
+Com a POO, é possível aproveitar conceitos como:
+
+Encapsulamento: proteger os dados de cada classe.
+
+Herança: reaproveitar código entre classes relacionadas (por exemplo, Pessoa → Usuário e Autor).
+
+Polimorfismo: permitir que objetos diferentes sejam tratados de forma genérica, simplificando o código.
+
+Além disso, a POO favorece a expansão do sistema, permitindo adicionar novas entidades (como reservas, multas, etc.) sem comprometer a estrutura existente.
